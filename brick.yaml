@@ -1,0 +1,25 @@
+name: flood
+description: Brick to generate a Flood project.
+
+repository: https://github.com/JLogical-Apps/flood-brick
+
+version: 4.0.0+1
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: Project Name
+    default: example
+    prompt: What is the name of your project? This will be used to name your directories, packages, and projects.
+  app_identifier:
+    type: string
+    description: App Identifier
+    default: com.jlogical.example
+    prompt: What is your app identifier?
+  github_url:
+    type: string
+    description: Github URL
+    prompt: What is the URL of your Github repo?

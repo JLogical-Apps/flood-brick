@@ -1,0 +1,31 @@
+name: {{project_name.snakeCase()}}
+description: App Project for {{project_name.titleCase()}}
+publish_to: none
+version: 0.0.1+1
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.5+1
+
+  flood:
+    git:
+      url: "git@github.com:JLogical-Apps/flood.git"
+      ref: v4.0
+      path: packages/flood/flood
+  {{project_name.snakeCase()}}_core:
+    path: ../{{project_name.snakeCase()}}_core
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.3.7
+dependency_overrides:
+  http: 0.13.5
+  vm_service: 13.0.0
