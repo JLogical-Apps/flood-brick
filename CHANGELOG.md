@@ -1,3 +1,3 @@
-# 0.1.0+1
+# 4.0.0+1
 
-- TODO: Describe initial release.
+- Initial version, lining up with the v4.0 version of Flood.
