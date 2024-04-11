@@ -10,4 +10,4 @@ The Flood brick will generate an entire Flood project for you.
 
 ## Learn More
 
-Visit [https://www.flooddev.com](https://www.flooddev.com) to learn more. You can documentation at [https://docs.flooddev.com](https://docs.flooddev.com).
+Visit [https://www.flooddev.com](https://www.flooddev.com) to learn more. You can view the documentation at [https://docs.flooddev.com](https://docs.flooddev.com).
