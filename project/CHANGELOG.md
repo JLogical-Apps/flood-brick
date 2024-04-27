@@ -1,3 +1,7 @@
+# 4.0.0+3
+
+- Refactor to be a part of a multi-brick repository.
+
 # 4.0.0+2
 
 - Fix typo in README.

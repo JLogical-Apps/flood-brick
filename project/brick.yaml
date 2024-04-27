@@ -2,7 +2,7 @@ name: flood
 description: Brick to generate a Flood project.
 repository: https://github.com/JLogical-Apps/flood-brick/tree/master/project
 
-version: 4.0.0+2
+version: 4.0.0+3
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
