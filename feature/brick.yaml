@@ -2,7 +2,7 @@ name: flood_feature
 description: Brick to generate a Flood feature.
 repository: https://github.com/JLogical-Apps/flood-brick/tree/master/feature
 
-version: 4.0.0+1
+version: 4.0.1+2
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"

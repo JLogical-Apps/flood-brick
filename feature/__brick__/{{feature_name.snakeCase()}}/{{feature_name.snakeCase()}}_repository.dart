@@ -9,5 +9,5 @@ class {{feature_name.pascalCase()}}Repository with IsRepositoryWrapper {
     {{feature_name.pascalCase()}}.new,
     entityTypeName: '{{feature_name.pascalCase()}}Entity',
     valueObjectTypeName: '{{feature_name.pascalCase()}}',
-  );
+  ).adapting('{{feature_name.paramCase()}}');
 }
