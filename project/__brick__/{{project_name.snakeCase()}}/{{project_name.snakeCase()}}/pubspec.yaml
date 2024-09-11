@@ -12,7 +12,7 @@ dependencies:
   flood:
     git:
       url: "git@github.com:JLogical-Apps/flood.git"
-      ref: v4.1
+      ref: v4.2
       path: packages/flood/flood
   {{project_name.snakeCase()}}_core:
     path: ../{{project_name.snakeCase()}}_core
